@@ -6,7 +6,7 @@ import { Leaf, Award, Users, TrendingUp, Globe, Heart, ArrowRight } from 'lucide
 
 // 2. Asıl içeriği ayrı bir bileşen (InformationContent) olarak ayırıyoruz.
 // useSearchParams burada kullanılıyor.
-function InformationContent() {
+export default function InformationPage() {
     const router = useRouter();
     const searchParams = useSearchParams();
 
