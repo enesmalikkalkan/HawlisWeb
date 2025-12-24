@@ -1,10 +1,12 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, Suspense } from 'react'; // 1. Suspense eklendi
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Leaf, Award, Users, TrendingUp, Globe, Heart, ArrowRight } from 'lucide-react';
 
-export default function InformationPage() {
+// 2. Asıl içeriği ayrı bir bileşen (InformationContent) olarak ayırıyoruz.
+// useSearchParams burada kullanılıyor.
+function InformationContent() {
     const router = useRouter();
     const searchParams = useSearchParams();
 
@@ -153,5 +155,15 @@ export default function InformationPage() {
                 </section>
             </div>
         </div>
+    );
+}
+
+// 3. Varsayılan dışa aktarımda Suspense kullanıyoruz.
+// Bu sayede Next.js build sırasında hata vermez.
+export default function InformationPage() {
+    return (
+        <Suspense fallback={<div className="min-h-screen bg-white" />}>
+            <InformationContent />
+        </Suspense>
     );
 }
