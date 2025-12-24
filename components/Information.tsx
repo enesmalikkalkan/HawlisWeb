@@ -157,13 +157,3 @@ function InformationContent() {
         </div>
     );
 }
-
-// 3. Varsayılan dışa aktarımda Suspense kullanıyoruz.
-// Bu sayede Next.js build sırasında hata vermez.
-export default function InformationPage() {
-    return (
-        <Suspense fallback={<div className="min-h-screen bg-white" />}>
-            <InformationContent />
-        </Suspense>
-    );
-}
