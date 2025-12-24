@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Information from '../../components/Information';
 // veya alias kullanıyorsanız: import AllProducts from '@/components/AllProducts';
 
@@ -12,8 +12,9 @@ export default function InformationLayout({
             {/* AllProducts bileşeni burada çağrılıyor. 
         Böylece bu route altındaki tüm sayfalarda (varsa) bu liste görünecek.
       */}
-            <Information />
-
+            <Suspense fallback={<div className="min-h-screen bg-white" />}>
+                <Information />
+            </Suspense>
             {/* Eğer /allproducts rotasında ayrıca başka içerikler (children) gösterecekseniz
         onlar burada render edilir. Eğer göstermeyecekseniz children boş gelecektir.
       */}

@@ -161,9 +161,6 @@ function ProductListContent() {
                                                 <h3 className="font-semibold text-gray-900 text-base leading-tight">
                                                     {product.name}
                                                 </h3>
-                                                <p className="text-sm text-gray-600 mt-1">
-                                                    {product.colors ? product.colors.join(', ') : 'Çok Renk Seçeneği'}
-                                                </p>
                                             </div>
                                         </div>
                                     </Link>
