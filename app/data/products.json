@@ -1,0 +1,229 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Kot Pantolon",
+            "value": "jeans",
+            "products": [
+                {
+                    "id": 1,
+                    "category": "Kot",
+                    "name": "Klasik Kesim Kot Pantolon",
+                    "description": "Klasik kesimi ve taba rengi nakışlarıyla tarzınızı yansıtın.",
+                    "colors": [
+                        "Mavi",
+                        "Antrasit",
+                        "Siyah"
+                    ],
+                    "size": "Battal Boy (31 - 32 - 33 - 34 - 36 - 38 - 40)",
+                    "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/1-mavi-on-gorunum.png",
+                    "stock": "Stok Mevcut"
+                },
+                {
+                    "id": 6,
+                    "category": "Kot",
+                    "name": "Klasik Kesim Kot Pantolon",
+                    "description": "Klasik kesim, parçalı cep detaylarıyla güncel bir yorum kazanıyor. Sade, modern ve zahmetsiz şıklık.",
+                    "colors": [
+                        "Siyah",
+                        "Blue Black",
+                        "Mavi"
+                    ],
+                    "size": "Battal Boy (31 - 32 - 33 - 34 - 36 - 38 - 40)",
+                    "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/6-siyah-on-gorunum.png",
+                    "stock": "Stok Mevcut"
+                },
+                {
+                    "id": 11,
+                    "category": "Kot",
+                    "name": "Baggy Kot Pantolon",
+                    "description": "Bol kesimiyle rahat bir kullanım sunan bu model, yıkama detaylarıyla tarzınızı yansıtmanızı sağlar.\n3 farklı renk seçeneğiyle her tarza uyum sağlar.",
+                    "colors": [
+                        "Siyah",
+                        "Buz Mavi",
+                        "Biliç Yıkama"
+                    ],
+                    "size": "Büyük Boy (30 - 31 - 32 - 33 - 34 - 36)",
+                    "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/11-siyah-on-gorunum.png",
+                    "stock": "Stok Mevcut"
+                },
+                {
+                    "id": 16,
+                    "category": "Kot",
+                    "name": "Klasik Kesim Nakışlı Kot Pantolon",
+                    "description": "Klasik kesimi ve lacivert nakışlarıyla tarzınızı yansıtın.",
+                    "size": "Battal Boy (31 - 32 - 33 - 34 - 36 - 38 - 40)",
+                    "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/16-on-gorunum.png",
+                    "stock": "Stok Mevcut"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Kumaş Pantolon",
+            "value": "trousers",
+            "products": [
+                {
+                    "id": 2,
+                    "category": "Kumaş",
+                    "name": "Yama Cepli Kumaş Pantolon",
+                    "description": "Rahat kesime sahip bu model yama cebiyle beraber kumaş pantolonlarınıza farklı bir yorum getirecektir.\n5 farklı renk seçeneğiyle beraber her tarza uyum sağlar.",
+                    "colors": [
+                        "Koyu Bej",
+                        "Taş Rengi",
+                        "Koyu Gri",
+                        "Açık Gri",
+                        "Sütlü Kahve"
+                    ],
+                    "size": "Büyük Boy (29 - 30 - 31 - 32 - 33 - 34 - 36 - 38)",
+                    "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/2-koyu-bej-on-gorunum.png",
+                    "stock": "Stok Mevcut"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Jogger Pantolon",
+            "value": "joggers",
+            "products": [
+                {
+                    "id": 3,
+                    "category": "Jogger",
+                    "name": "Fleto Cepli Erkek Jogger Pantolon",
+                    "description": "Jogger kumaşının rahatlığı ve esnekliğini klasik kesimin şıklığıyla birleştiren bu model spor kombinlerinizde bile size klasik kesimini şıklığını katacaktır.\n6 farklı renk seçeneğiyle her tarza uyum sağlar.",
+                    "colors": [
+                        "Bej",
+                        "Taş Rengi",
+                        "Lacivert",
+                        "Siyah",
+                        "Yeşil"
+                    ],
+                    "size": "Büyük Boy (29 - 30 - 31 - 32 - 33 - 34 - 36)",
+                    "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/3-bej-on-gorunum.png",
+                    "stock": "Stok Mevcut"
+                },
+                {
+                    "id": 8,
+                    "category": "Jogger",
+                    "name": "Fleto Cepli Fitilli Erkek Jogger Pantolon",
+                    "description": "Fitilli ve likralı kumaşın rahatlığı ve esnekliğini klasik kesimin şıklığıyla birleştiren bu model spor kombinlerinizde bile size klasik kesimini şıklığını katacaktır.\n6 farklı renk seçeneğiyle her tarza uyum sağlar.",
+                    "colors": [
+                        "Koyu Bej",
+                        "Siyah",
+                        "Lacivert",
+                        "Gri",
+                        "Kahverengi",
+                        "Bej"
+                    ],
+                    "size": "Büyük Boy (30 - 31 - 32 - 33 - 34 - 36 - 38)",
+                    "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/8-koyu-bej-on-gorunum.png",
+                    "stock": "Stok Mevcut"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Kargo Pantolon",
+            "value": "cargos",
+            "products": [
+                {
+                    "id": 4,
+                    "category": "Kargo",
+                    "name": "Düz Paça Kargo Pantolon",
+                    "description": "Düz paça kesimiyle zamansız bir duruş sunan kargo pantolon, fonksiyonel cep detaylarıyla günlük stile pratiklik katar. Rahat kalıbı sayesinde gün boyu konforlu ve modern bir kullanım sağlar.\n5 farklı renk seçeneğiyle her tarza uyum sağlar.",
+                    "colors": [
+                        "Antrasit",
+                        "Bej",
+                        "Siyah",
+                        "Açık Haki",
+                        "Haki"
+                    ],
+                    "size": "Battal Boy (30 - 31 - 32 - 33 - 34 - 36 - 38 - 40)",
+                    "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/4-siyah-on-gorunum.png",
+                    "stock": "Stok Mevcut"
+                },
+                {
+                    "id": 9,
+                    "category": "Kargo",
+                    "name": "Lastikli Paça Kargo Pantolon",
+                    "description": "Lastikli paça detayıyla modern bir dokunuş kazanan kargo pantolon, fonksiyonel cepleriyle günlük stilinize pratiklik katar. Rahat kalıbı sayesinde gün boyu konforlu ve şık bir kullanım sunar.\n5 farklı renk seçeneğiyle her tarza uyum sağlar.",
+                    "colors": [
+                        "Gri",
+                        "Siyah",
+                        "Haki",
+                        "Bej",
+                        "Krem Rengi"
+                    ],
+                    "size": "Büyük Boy (29 - 30 - 31 - 32 - 33 - 34 - 36)",
+                    "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/9-gri-on-gorunum.png",
+                    "stock": "Stok Mevcut"
+                },
+                {
+                    "id": 14,
+                    "category": "Kargo",
+                    "name": "Nakışlı Tactical Pantolon",
+                    "description": "Tactical tarzını yansıtan nakış detaylarıyla öne çıkan bu kargo pantolon, fonksiyonel cepleriyle günlük stilinize pratiklik katar. Rahat kalıbı sayesinde gün boyu konforlu ve şık bir kullanım sunar.",
+                    "size": "Battal Boy (31 - 32 - 33 - 34 - 36 - 38 - 40)",
+                    "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/14-on-gorunum.png",
+                    "stock": "Stok Mevcut Değil"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Exclusive",
+            "value": "exclusive",
+            "products": [
+                {
+                    "id": 5,
+                    "category": "Exclusive",
+                    "name": "Paça Parçalı Erkek Baggy Jeans",
+                    "description": "Paçasında bulunan ekstra parçayla görünüşünüze ayrı bir hava katan bu model ön tarafında bulunan bıyık yıkama detaylarıyla şıklığınıza şıklık katacaktır. Siyah ve mavi renk seçenekleriyle her tarza uyum sağlar.",
+                    "colors": [
+                        "Siyah",
+                        "Mavi"
+                    ],
+                    "size": "Büyük Boy (31 - 32 - 33 - 34)",
+                    "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/hem.png",
+                    "stock": "Stok Mevcut Değil"
+                },
+                {
+                    "id": 10,
+                    "category": "Exclusive",
+                    "name": "4 Parça Nakışlı Erkek Baggy Pantolon",
+                    "description": "Özel üretilen bu modelimizle tarzınızı yansıtın. 4 farklı nakış işleminin birleşimiyle oluşturulan bu pantolon, benzersiz bir görünüm sunar.",
+                    "size": "Büyük Boy (31 - 32 - 33 - 34)",
+                    "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/10-arka-gorunum.png",
+                    "stock": "Stok Mevcut Değil"
+                },
+                {
+                    "id": 15,
+                    "category": "Exclusive",
+                    "name": "Erkek Boyfriend Pantolon",
+                    "description": "Openat kumaşından üretilen bu model rahat kesimiyle gün boyu konfor sağlar. Yıkama detaylarıyla tarzınızı yansıtın. 3 farklı renk seçeneğiyle her tarza uyum sağlar.",
+                    "colors": [
+                        "Buz Mavi",
+                        "Siyah",
+                        "Kar Yıkama"
+                    ],
+                    "size": "Büyük Boy (29 - 30 - 31 - 32 - 33 - 34 - 36 - 38)",
+                    "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/15-buz-mavi-on-gorunum.png",
+                    "stock": "Stok Mevcut"
+                },
+                {
+                    "id": 20,
+                    "category": "Exclusive",
+                    "name": "Fitilli Erkek Pantolon",
+                    "description": "%100 pamuktan üretilen Bolivya kumaşından yapılan bu model klasik kesimiyle tarzınıza tarz katar. 3 farklı renk seçeneğiyle her tarza uyum sağlar.",
+                    "colors": [
+                        "Koyu Gri",
+                        "Yeşil"
+                    ],
+                    "size": "Battal Boy (31 - 32 - 33 - 34 - 36 - 38 - 40)",
+                    "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/20-yesil-arka-gorunum.png",
+                    "stock": "Stok Mevcut"
+                }
+            ]
+        }
+    ]
+}
