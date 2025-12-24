@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
-// ✅ OPTİMİZASYON 1: React Cache mekanizmasını ekliyoruz
 import { cache } from 'react';
 import productsData from '../../data/products.json';
+// Import yollarının doğru olduğundan emin ol (senin proje yapına göre ../ sayısı değişebilir)
 import { Product } from '../../../types/Type';
 import ProductDetails from '@/components/ProductDetails';
 
@@ -9,29 +9,25 @@ type Props = {
     params: Promise<{ id: string }>
 };
 
-// ✅ OPTİMİZASYON 2: Veri çekme işlemini "cache" içine alıyoruz.
-// Bu sayede generateMetadata ve ProductPage aynı anda çağırsa bile
-// fonksiyon sadece 1 kere çalışır. İşlemci yorulmaz.
+// 1. Ürünü Bulma Fonksiyonu (Cache'lenmiş)
 const getProduct = cache((id: string): Product | undefined => {
-    const allProducts: Product[] = productsData.categories.flatMap(category => category.products);
+    const allProducts: Product[] = productsData.categories.flatMap((category: any) => category.products);
 
     return allProducts.find(p => {
         return String(p.id).trim() === String(id).trim();
     });
 });
 
-// ✅ OPTİMİZASYON 3: Statik Sayfa Oluşturma (SSG - Static Site Generation)
-// Bu fonksiyon Next.js'e "Benim şu ID'lere sahip ürünlerim var, bunları önceden hazırla" der.
-// Böylece kullanıcı F5 attığında sunucu hesaplama yapmaz, hazır HTML'i milisaniyeler içinde fırlatır.
+// 2. Statik Parametreler (Build zamanı çalışır)
 export async function generateStaticParams() {
-    const allProducts: Product[] = productsData.categories.flatMap(category => category.products);
+    const allProducts: Product[] = productsData.categories.flatMap((category: any) => category.products);
 
     return allProducts.map((product) => ({
         id: String(product.id),
     }));
 }
 
-// SEO METADATA
+// 3. SEO Metadata Oluşturma
 export async function generateMetadata({ params }: Props) {
     const { id } = await params;
     const product = getProduct(id);
@@ -47,18 +43,21 @@ export async function generateMetadata({ params }: Props) {
     };
 }
 
-// ANA SAYFA BİLEŞENİ
+// 4. Ana Sayfa Bileşeni (Hatanın çözüldüğü yer)
 export default async function ProductPage({ params }: Props) {
     const { id } = await params;
 
-    // Ürünü bul (Cache sayesinde tekrar hesaplama yapmaz)
+    // Ürünü getir
     const product = getProduct(id);
 
-    // Ürün yoksa 404 sayfasına at
+    // Ürün yoksa 404 sayfasına yönlendir
+    // Bu kontrol sayesinde aşağıdaki product değişkeni asla "undefined" olamaz.
     if (!product) {
         notFound();
     }
 
-    // Ürünü bulduysan Detay Bileşenine gönder
+    // ÇÖZÜM BURADA:
+    // Hata veren kod muhtemelen şuydu: <ProductDetails />
+    // Doğrusu aşağıdakidir (veriyi prop olarak geçiyoruz):
     return <ProductDetails product={product} />;
 }
