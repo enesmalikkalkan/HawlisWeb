@@ -162,7 +162,7 @@ function ProductListContent() {
                                                     {product.name}
                                                 </h3>
                                                 <p className="text-sm text-gray-600 mt-1">
-                                                    {product.color}
+                                                    {product.colors ? product.colors.join(', ') : 'Çok Renk Seçeneği'}
                                                 </p>
                                             </div>
                                         </div>
