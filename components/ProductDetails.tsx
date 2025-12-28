@@ -138,23 +138,23 @@ export default function ProductDetails({ product }: Props) {
                                     target.src = product.image;
                                 }}
                             />
+
+                            {/* Dönme Butonu */}
+                            {(!hasColors || selectedColor) && product.id !== 14 && (
+                                <button
+                                    onClick={toggleView}
+                                    className="absolute bottom-4 right-4 bg-white/90 backdrop-blur text-gray-900 px-4 py-2 rounded-full shadow-lg font-medium text-sm flex items-center space-x-2 hover:bg-black hover:text-white transition-all transform active:scale-95 z-20 border border-gray-200"
+                                    aria-label="Ürün görünümünü değiştir"
+                                >
+                                    <RotateCw className={`w-4 h-4 ${currentView === 'arka' ? '-scale-x-100' : ''}`} />
+                                    <span>{currentView === 'on' ? 'Arkasına Bak' : 'Önüne Bak'}</span>
+                                </button>
+                            )}
                         </div>
 
                         <div className="absolute top-4 left-4 bg-black text-white px-4 py-1.5 text-xs font-bold uppercase tracking-wider rounded-md z-10 pointer-events-none">
                             Toptan Satış
                         </div>
-
-                        {/* Dönme Butonu */}
-                        {(!hasColors || selectedColor) && product.id !== 14 && (
-                            <button
-                                onClick={toggleView}
-                                className="absolute bottom-4 right-4 bg-white/90 backdrop-blur text-gray-900 px-4 py-2 rounded-full shadow-lg font-medium text-sm flex items-center space-x-2 hover:bg-black hover:text-white transition-all transform active:scale-95 z-20 border border-gray-200"
-                                aria-label="Ürün görünümünü değiştir"
-                            >
-                                <RotateCw className={`w-4 h-4 ${currentView === 'arka' ? '-scale-x-100' : ''}`} />
-                                <span>{currentView === 'on' ? 'Arkasına Bak' : 'Önüne Bak'}</span>
-                            </button>
-                        )}
                     </div>
 
                     {/* --- DETAYLAR ALANI --- */}
@@ -172,12 +172,28 @@ export default function ProductDetails({ product }: Props) {
 
                             <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">{product.name}</h1>
 
-                            <p className="text-gray-600 text-lg mb-6 leading-relaxed border-b border-gray-100 pb-6">
+                            <p className="text-gray-600 text-lg mb-4 leading-relaxed border-b border-gray-100 pb-6">
                                 {product.description}
                             </p>
 
                             <div className="space-y-4 mb-8">
                                 <div className="flex flex-col">
+                                    <span className="text-sm text-gray-700 mb-4">
+                                        <span className="font-bold text-lg text-gray-900">Ürün Özellikleri:</span>
+                                        {product.features.map((feature, index) => {
+                                            const [title, ...rest] = feature.split(":");
+                                            const value = rest.join(":").trim();
+
+                                            return (
+                                                <span key={index} className="block text-sm mt-1.5 text-gray-700">
+                                                    <strong className="text-gray-900">
+                                                        {title}:
+                                                    </strong>{" "}
+                                                    {value}
+                                                </span>
+                                            );
+                                        })}
+                                    </span>
                                     {hasColors && (
                                         <div className="flex flex-col mb-4">
                                             <span className="font-bold text-gray-900 mb-2 text-sm">

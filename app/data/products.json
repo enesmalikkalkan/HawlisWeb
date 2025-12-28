@@ -8,8 +8,14 @@
                 {
                     "id": 1,
                     "category": "Kot",
-                    "name": "Klasik Kesim Kot Pantolon",
-                    "description": "Klasik kesimi ve taba rengi nakışlarıyla tarzınızı yansıtın.",
+                    "name": "%100 Pamuk Regular Fit Klasik Nakışlı Erkek Jean Pantolon",
+                    "description": "Gün boyu konfor sunan %100 pamuk dokusu, klasik nakış detayları ve rahat kalıbı ile gardırobunuzun vazgeçilmezi olacak Regular Fit Jean serisi.",
+                    "features": [
+                        "Doğal ve Nefes Alan Kumaş: Cildinize dost, terletmeyen ve gün boyu rahatlık sağlayan %100 Pamuk denim kumaştan üretilmiştir. Likrasız (esnemeyen) yapısı sayesinde formunu uzun süre korur.",
+                        "İkonik Tasarım Detayı: Arka ceplerde yer alan klasik kavisli nakış işlemesi, pantolona zamansız ve şık bir hava katar.",
+                        "Rahat Kalıp (Regular Fit): Ne çok dar ne çok bol; vücuda tam oturan, hareket özgürlüğü sağlayan ideal standart kesim.",
+                        "Renk Seçenekleri ve Özel İşlemler:\nMavi: Özel kimyasal ağartma işlemi ile kazandırılan canlı ve modern ton.\nSiyah & Antrasit: İşlem görmemiş, derin ve net renk tonlarıyla klasik şıklık."
+                    ],
                     "colors": [
                         "Mavi",
                         "Antrasit",
@@ -22,8 +28,15 @@
                 {
                     "id": 6,
                     "category": "Kot",
-                    "name": "Klasik Kesim Kot Pantolon",
-                    "description": "Klasik kesim, parçalı cep detaylarıyla güncel bir yorum kazanıyor. Sade, modern ve zahmetsiz şıklık.",
+                    "name": "%100 Pamuk Regular Fit Katlama Detaylı Erkek Jean Pantolon",
+                    "description": "%100 pamuklu doğal dokusu, kimyasal işlem görmemiş net renkleri ve arka ceplerindeki özel katlama detayı ile fark yaratan Regular Fit Jean serisi.",
+                    "features": [
+                        "%100 Doğal Pamuk: Tamamen doğal pamuk ipliğinden üretilmiştir. Sentetik karışım içermeyen yapısı sayesinde cildinize nefes aldırır, terletmez ve gün boyu sağlıklı bir kullanım sunar.",
+                        "İşlem Görmemiş Saf Renkler: Bu serideki hiçbir renk kimyasal ağartma/beyazlatma işlemine maruz kalmamıştır. Kumaşın en doğal ve doygun halini yansıtır.\nSiyah: Klasik, net ve tam kapatıcı siyah.Blue-Black: Lacivert ve siyahın şık karışımıyla elde edilen, derinlikli özel ton.\nMavi: Denimin en sade ve doğal hali.",
+                        "Özgün Arka Cep Tasarımı: Arka cepler, standart düz yapı yerine ortadan katlanmış özel formuyla modele modern ve karakteristik bir hava katar.",
+                        "Rahat Kalıp (Regular Fit): Vücudu sıkmayan, hareket özgürlüğü sağlayan standart kesim. Günlük kullanımda konfor arayanlar için idealdir.",
+                        "Dayanıklılık: Kimyasal yıpratma uygulanmadığı için kumaş dokusu mukavemetini uzun süre korur."
+                    ],
                     "colors": [
                         "Siyah",
                         "Blue Black",
@@ -36,8 +49,14 @@
                 {
                     "id": 11,
                     "category": "Kot",
-                    "name": "Baggy Kot Pantolon",
-                    "description": "Bol kesimiyle rahat bir kullanım sunan bu model, yıkama detaylarıyla tarzınızı yansıtmanızı sağlar.\n3 farklı renk seçeneğiyle her tarza uyum sağlar.",
+                    "name": "%100 Pamuk Baggy Fit Düz Arka Cepli Erkek Jean Pantolon",
+                    "description": "Sokak stilinin vazgeçilmezi Baggy kalıp, sadelikten yana olanlar için minimalist arka cep detayıyla birleşti. %100 pamuklu dokusu ve özel yıkama tonlarıyla konforu stilinize taşıyın.",
+                    "features": [
+                        "Geniş ve Rahat Kalıp (Baggy Fit): Vücuda yapışmayan, kalçadan paçaya doğru dökümlü inen geniş kesim. Hareket özgürlüğünü maksimum seviyeye çıkarır ve modern bir silüet sunar.",
+                        "Minimalist Arka Cep Tasarımı: Arka ceplerde nakış, dikiş deseni veya katlama bulunmaz. Klasik, düz ve sade yapısıyla her kombine uyum sağlar.",
+                        "%100 Doğal Pamuk: Tamamen pamuk ipliğinden üretilmiştir. Cildinize nefes aldıran yapısı sayesinde dört mevsim kullanıma uygundur.",
+                        "Özel Renk ve Yıkama İşlemleri:\nSiyah: Kimyasal ağartma işlemi uygulanmamış, kumaşın en doğal ve net siyah tonu.\nBuz Yıkama: Buz mavisinden bir ton koyu, hafif kimyasal işlemle yumuşatılmış açık ton.\nBiliç Yıkama: Buz yıkama renginin 2 ton daha koyusu; hafif işlem uygulanarak elde edilmiş karakterli orta mavi."
+                    ],
                     "colors": [
                         "Siyah",
                         "Buz Mavi",
@@ -50,8 +69,15 @@
                 {
                     "id": 16,
                     "category": "Kot",
-                    "name": "Klasik Kesim Nakışlı Kot Pantolon",
-                    "description": "Klasik kesimi ve lacivert nakışlarıyla tarzınızı yansıtın.",
+                    "name": "Kalın Dokulu Kışlık Regular Fit Erkek Jean Pantolon",
+                    "description": "Soğuk havalar için özel olarak tasarlanan kalın dokuması, kimyasal işlem görmemiş doğal rengi ve arka ceplerindeki şık lacivert nakış detaylarıyla kış stilinizin en güçlü parçası.",
+                    "features": [
+                        "Soğuk Havalara Uygun Kalın Dokuma: Standart jean kumaşlarına göre daha sık ve kalın dokunmuştur. 'Tok' kumaş yapısı sayesinde rüzgarı keser ve vücut ısısını koruyarak soğuk günlerde sıcak tutar.",
+                        "%100 Doğal Pamuk: Tamamen pamuk ipliğinden üretilmiştir. Kalın yapısına rağmen pamuğun nefes alabilirliği sayesinde terletme yapmaz, sağlıklı bir giyim deneyimi sunar.",
+                        "İşlem Görmemiş Doğal Renk: Kumaş üzerinde kimyasal ağartma veya beyazlatma işlemi uygulanmamıştır. Denimin en doğal, koyu ve asil tonunu yansıtır.",
+                        "Zarif Nakış Detayı: Arka ceplerde, kumaşın tonuyla bütünleşen lacivert iplikle işlenmiş özel nakış deseni bulunur. Sırıtmıyan, şık bir detay sunar.",
+                        "Rahat Kalıp (Regular Fit): Vücudu sıkmayan, hareket özgürlüğü sağlayan standart kesim. Günlük kullanımda konfor arayanlar için idealdir."
+                    ],
                     "size": "Battal Boy (31 - 32 - 33 - 34 - 36 - 38 - 40)",
                     "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/16-on-gorunum.png",
                     "stock": "Stok Mevcut"
@@ -66,8 +92,15 @@
                 {
                     "id": 2,
                     "category": "Kumaş",
-                    "name": "Yama Cepli Kumaş Pantolon",
-                    "description": "Rahat kesime sahip bu model yama cebiyle beraber kumaş pantolonlarınıza farklı bir yorum getirecektir.\n5 farklı renk seçeneğiyle beraber her tarza uyum sağlar.",
+                    "name": "Hafif Dokulu Polyester Regular Fit Erkek Pantolon",
+                    "description": "İnce yapılı polyester kumaşı sayesinde gün boyu hafiflik ve konfor sunan, sade tasarımıyla her ortama uyum sağlayan mevsimlik Regular Fit pantolon serisi.",
+                    "features": [
+                        "Hafif ve Dayanıklı Polyester Kumaş: Tamamen polyester iplikten üretilen kumaşı, hafif yapısıyla üzerinizde ağırlık yapmaz. Dayanıklıdır ve formunu uzun süre korur.",
+                        "Mevsimlik İnce Doku: Kalın ve ağır kumaşların aksine ince bir yapıya sahiptir. Soğuk havalar için değil; bahar ayları, yaz akşamları ve ofis ortamı gibi ılıman koşullar için tasarlanmıştır.",
+                        "Minimalist Tasarım: Arka ceplerde dikiş, nakış veya desen bulunmaz. Düz ve sade yapısıyla 'clean look' (temiz görünüm) sevenler için idealdir.",
+                        "Rahat Kalıp (Regular Fit): Standart kesimi sayesinde ne çok dar ne de çok boldur; vücuda rahatça oturur ve hareket özgürlüğü sağlar.",
+                        "Geniş Renk Skalası: Doğal ve zamansız tonlardan oluşan 5 farklı renk seçeneği:\nKoyu Bej\nTaş Rengi\nKoyu Gri\nAçık Gri\nSütlü Kahve"
+                    ],
                     "colors": [
                         "Koyu Bej",
                         "Taş Rengi",
@@ -89,8 +122,16 @@
                 {
                     "id": 3,
                     "category": "Jogger",
-                    "name": "Fleto Cepli Erkek Jogger Pantolon",
-                    "description": "Jogger kumaşının rahatlığı ve esnekliğini klasik kesimin şıklığıyla birleştiren bu model spor kombinlerinizde bile size klasik kesimini şıklığını katacaktır.\n6 farklı renk seçeneğiyle her tarza uyum sağlar.",
+                    "name": "Örme Dokulu Beli Lastikli ve İpli Regular Fit Erkek Pantolon",
+                    "description": "Jogger kumaşının konforunu klasik pantolon görünümüyle buluşturan tasarım. Kare örme dokusu, ayarlanabilir lastikli bel yapısı ve hafif kumaşıyla gün boyu maksimum rahatlık sunar.",
+                    "features": [
+                        "Özel Dokulu Kumaş: Kare örme desenine sahip polyester jogger kumaştan üretilmiştir. Sıradan düz kumaşlara göre daha modern ve teknolojik bir görünüm sunar.",
+                        "Fonksiyonel Bel Tasarımı (Hibrit Yapı): Bel kısmı hem lastikli hem de iplidir; bu sayede vücudunuza göre kolayca ayarlayabilirsiniz. Ayrıca kemer köprüleri sayesinde dilerseniz kemerle de kullanarak daha resmi bir görünüm elde edebilirsiniz.",
+                        "İnce ve Mevsimlik: Soğuk havalar için değil; ilkbahar, yaz ve sonbahar geçişleri için tasarlanmış ince yapılı bir üründür. Terletmez, hafiftir ve üzerinizde yokmuş hissi verir.",
+                        "Şık Arka Cep Detayı: Arka ceplerde kullanılan Fleto (gizli cep) modeli, pantolona minimal ve temiz bir arka görünüm kazandırır.",
+                        "Rahat Kalıp (Regular Fit): Vücudu sıkmayan standart kesim. Günlük hareketlerinizde kısıtlama yaratmaz.",
+                        "Renk Seçenekleri: Her kombine uyum sağlayan 5 farklı renk:\nBej\nTaş Rengi\nLacivert\nSiyah\nYeşil"
+                    ],
                     "colors": [
                         "Bej",
                         "Taş Rengi",
@@ -105,8 +146,17 @@
                 {
                     "id": 8,
                     "category": "Jogger",
-                    "name": "Fleto Cepli Fitilli Erkek Jogger Pantolon",
-                    "description": "Fitilli ve likralı kumaşın rahatlığı ve esnekliğini klasik kesimin şıklığıyla birleştiren bu model spor kombinlerinizde bile size klasik kesimini şıklığını katacaktır.\n6 farklı renk seçeneğiyle her tarza uyum sağlar.",
+                    "name": "Fitilli Beli Lastikli ve İpli Likralı Regular Fit Erkek Pantolon",
+                    "description": "Modern çizgili (fitilli) dokusu, esnek likralı kumaşı ve hem lastikli hem kemerli fonksiyonel bel tasarımıyla konforu şıklıkla buluşturan ince yapılı mevsimlik pantolon.",
+                    "features": [
+                        "Fitilli (Çizgili) Örme Doku: Düz kumaşlardan farklı olarak boyuna ince çizgili (fitilli) dokusuyla ürüne modern ve hareketli bir görünüm kazandırır.",
+                        "Esnek ve Rahat (Likralı): Polyester ve likra karışımlı jogger kumaşı, esnek yapısı sayesinde gün içindeki hareketlerinize uyum sağlar.",
+                        "Çok Yönlü Bel Tasarımı (Hibrit Yapı): Bel kısmı lastikli ve iplidir, böylece vücudunuza göre kolayca ayarlanabilir. Ek olarak bulunan kemer köprüleri sayesinde kemerle de kullanılarak ofis şıklığına uyarlanabilir.",
+                        "İnce ve Mevsimlik: Soğuk kış günleri için değil; ilkbahar, yaz ve sonbahar ayları için tasarlanmış ince, hafif ve nefes alan bir yapıya sahiptir.",
+                        "Şık Arka Cep (Fleto): Arka ceplerde kullanılan gizli Fleto cep detayı, spor jogger havasını kırarak pantolona daha klasik ve temiz bir duruş katar.",
+                        "Rahat Kalıp (Regular Fit): Standart kesimiyle vücuda tam oturur, ne çok dar ne de çok bol bir kullanım sunar.",
+                        "Geniş Renk Seçenekleri: Gardırobunuzun temel parçası olacak 6 farklı renk:\nKoyu Bej\nSiyah\nLacivert\nGri\nKahverengi\nBej"
+                    ],
                     "colors": [
                         "Koyu Bej",
                         "Siyah",
@@ -129,8 +179,16 @@
                 {
                     "id": 4,
                     "category": "Kargo",
-                    "name": "Düz Paça Kargo Pantolon",
-                    "description": "Düz paça kesimiyle zamansız bir duruş sunan kargo pantolon, fonksiyonel cep detaylarıyla günlük stile pratiklik katar. Rahat kalıbı sayesinde gün boyu konforlu ve modern bir kullanım sağlar.\n5 farklı renk seçeneğiyle her tarza uyum sağlar.",
+                    "name": "Likralı Regular Fit Erkek Kargo Pantolon",
+                    "description": "Polyester saten kumaş dokusunun pürüzsüz şıklığını kargo pantolon rahatlığıyla buluşturan tasarım. Esnek likralı yapısı, fonksiyonel kapaklı cepleri ve düz paça kesimiyle gün boyu konfor sunar.",
+                    "features": [
+                        "Özel Kumaş (Likralı Polyester Saten): Standart kargo pantolonlardan farklı olarak, hafif parlak ve pürüzsüz yüzeye sahip saten karışımlı kumaştan üretilmiştir. Likra içeriği sayesinde esnektir, hareketlerinizi kısıtlamaz.",
+                        "Tamamlayıcı Cep Tasarımı: Yanlarda bulunan karakteristik kargo ceplerin yanı sıra, arka cepler de kapaklı yama cep modelindedir. Bu bütünleşik tasarım, ürüne güçlü ve simetrik bir kargo görünümü kazandırır.",
+                        "Klasik Bel ve Paça: Lastikli paçaların aksine düz paça tasarımına sahiptir, bu sayede bot ve spor ayakkabılarla rahatça kombinlenir. Bel kısmı standart kemerli yapıdadır (kemer köprülüdür).",
+                        "Düz Paça Kesimi: Paça kısmında lastik veya daralma bulunmaz; düz kesimiyle klasik pantolon görünümünü korur.",
+                        "Rahat Kalıp (Regular Fit): Vücudu aşırı sarmayan veya çok bol durmayan ideal standart kesim.",
+                        "Doğal ve Asil Renk Skalası: 5 farklı renk seçeneği ile her tarza uyum sağlar:\nAntrasit\nBej\nSiyah\nAçık Haki\nHaki"
+                    ],
                     "colors": [
                         "Antrasit",
                         "Bej",
@@ -145,8 +203,16 @@
                 {
                     "id": 9,
                     "category": "Kargo",
-                    "name": "Lastikli Paça Kargo Pantolon",
-                    "description": "Lastikli paça detayıyla modern bir dokunuş kazanan kargo pantolon, fonksiyonel cepleriyle günlük stilinize pratiklik katar. Rahat kalıbı sayesinde gün boyu konforlu ve şık bir kullanım sunar.\n5 farklı renk seçeneğiyle her tarza uyum sağlar.",
+                    "name": "Likralı Lastikli Paça Regular Fit Kargo Pantolon",
+                    "description": "Polyester saten kumaş dokusunun pürüzsüzlüğünü kargo pantolonun dinamik tarzıyla buluşturan tasarım. Lastikli paça detayı ve esnek likralı kumaşıyla gün boyu modern bir görünüm ve maksimum konfor sağlar.",
+                    "features": [
+                        "Özel Kumaş (Likralı Polyester Saten): Standart kargo pantolonların aksine, hafif parlak ve pürüzsüz yüzeye sahip saten karışımlı kumaştan üretilmiştir. Likra içeriği sayesinde esnektir ve hareket özgürlüğü sunar.",
+                        "Fonksiyonel ve Şık Cep Yapısı: Yanlardaki kargo ceplerle uyumlu olarak, arka cepler de kapaklı yama cep modelindedir. Bu bütünlük, pantolona güçlü ve simetrik bir karakter kazandırır.",
+                        "Lastikli Paça Detayı: Paça uçlarında bulunan lastik bantlar, pantolonun spor ayakkabılarla daha uyumlu olmasını sağlar ve modern bir silüet sunar.",
+                        "Kemerli Bel Yapısı: Lastikli paçanın aksine bel kısmı klasik kemerli yapıdadır. Bu sayede kemerle kombinleyerek daha 'smart casual' bir stil oluşturabilirsiniz.",
+                        "Rahat Kalıp (Regular Fit): Vücudu aşırı sarmayan veya çok bol durmayan ideal standart kesim.",
+                        "Zengin Renk Seçenekleri: 5 farklı renk alternatifi mevcuttur:\nAntrasit\nBej\nSiyah\nAçık Haki\nHaki"
+                    ],
                     "colors": [
                         "Gri",
                         "Siyah",
@@ -161,8 +227,15 @@
                 {
                     "id": 14,
                     "category": "Kargo",
-                    "name": "Nakışlı Tactical Pantolon",
-                    "description": "Tactical tarzını yansıtan nakış detaylarıyla öne çıkan bu kargo pantolon, fonksiyonel cepleriyle günlük stilinize pratiklik katar. Rahat kalıbı sayesinde gün boyu konforlu ve şık bir kullanım sunar.",
+                    "name": "Su Geçirmez Landroamer Kumaşlı Ayarlanabilir Paça Kargo Pantolon",
+                    "description": "Zorlu hava koşullarına dayanıklı Landroamer kumaş teknolojisi, su geçirmeyen yapısı ve iple ayarlanabilen fonksiyonel paça tasarımıyla profesyonel standartlarda üretilen Regular Fit kargo pantolon.",
+                    "features": [
+                        "Yüksek Performanslı Kumaş (Landroamer): Outdoor devlerinin tercih ettiği, su geçirmeyen ve rüzgara karşı dayanıklı özel Landroamer kumaştan üretilmiştir. Yağmurlu ve zorlu hava koşullarında maksimum koruma sağlar.",
+                        "Fonksiyonel Ayarlanabilir Paça: Paça kısmında bulunan özel ip mekanizması sayesinde pantolonun paçası isteğe göre daraltılıp büzülebilir veya geniş bırakılabilir. Bu özellik, farklı ayakkabı türleri (bot, spor ayakkabı) ile kullanım kolaylığı sunar.",
+                        "Özel Üretim ve Renk Seçeneği: Görseldeki siyah rengin yanı sıra, sipariş üzerine arzu edilen tüm renklerde özel olarak üretilebilmektedir. Kurumsal talepler veya özel koleksiyonlar için esnek üretim imkanı sunar.",
+                        "Kapaklı Fleto Arka Cep: Arka cepler, standart yama ceplerin aksine kapaklı fleto (içten/gizli) modeline sahiptir. Bu tasarım, eşyalarınızın güvenliğini artırırken pantolona daha teknik ve şık bir arka görünüm kazandırır.",
+                        "Kemerli Bel ve Rahat Kalıp: Bel kısmı kemer takmaya uygundur. Regular Fit kalıbı sayesinde hareket özgürlüğünü kısıtlamadan vücuda rahatça oturur."
+                    ],
                     "size": "Battal Boy (31 - 32 - 33 - 34 - 36 - 38 - 40)",
                     "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/14-on-gorunum.png",
                     "stock": "Stok Mevcut Değil"
@@ -177,8 +250,16 @@
                 {
                     "id": 5,
                     "category": "Exclusive",
-                    "name": "Paça Parçalı Erkek Baggy Jeans",
-                    "description": "Paçasında bulunan ekstra parçayla görünüşünüze ayrı bir hava katan bu model ön tarafında bulunan bıyık yıkama detaylarıyla şıklığınıza şıklık katacaktır. Siyah ve mavi renk seçenekleriyle her tarza uyum sağlar.",
+                    "name": "%100 Pamuk Çan Paça Detaylı Baggy Jean Pantolon",
+                    "description": "Sokak modasının trendi Baggy kalıbı, özel tasarım ham paça detayıyla buluşturduk. %100 pamuklu dokusu ve hafif yıkama efektleriyle stilinize modern ve özgün bir dokunuş katın.",
+                    "features": [
+                        "Özel Paça Tasarımı (Çan/Kesik Görünüm): Ürünün en dikkat çekici özelliği, paça bitimindeki dikişsiz, püsküllü ve ek parçalı görünümdür. Bu detay, pantolona Zara modellerinden aşina olduğumuz o modern 'Çan Paça' havasını ve salaş sokak stilini kazandırır.",
+                        "Geniş ve Rahat Kalıp (Baggy Fit): Vücudu sarmayan, kalçadan aşağıya bol inen Baggy kesim. Hem konforlu hem de son derece trend bir silüet sunar.",
+                        "%100 Doğal Pamuk: Esnemeyen (non-stretch) %100 pamuk denim kumaştan üretilmiştir. Kumaşın tok duruşu, baggy kalıbın formunu en iyi şekilde gösterir.",
+                        "Hafif Yıkama İşlemi (Soft Touch): Her iki renk seçeneğinde de kumaşı yıpratmayan, hafif yoğunlukta kimyasal ağartma işlemi uygulanmıştır. Bu işlem pantolona yumuşak bir geçiş ve yaşanmışlık hissi verir.",
+                        "Minimalist Arka Cep: Arka ceplerde desen veya şekil bulunmaz; klasik düz kesimdir. Tüm dikkati paça detayına ve kalıba çeker.",
+                        "Renk Seçenekleri:\nSiyah: Hafif kırık, mat ve asil ton.\nMavi: Buz mavisinden 2 ton daha koyu, ideal orta mavi tonu."
+                    ],
                     "colors": [
                         "Siyah",
                         "Mavi"
@@ -190,8 +271,15 @@
                 {
                     "id": 10,
                     "category": "Exclusive",
-                    "name": "4 Parça Nakışlı Erkek Baggy Pantolon",
-                    "description": "Özel üretilen bu modelimizle tarzınızı yansıtın. 4 farklı nakış işleminin birleşimiyle oluşturulan bu pantolon, benzersiz bir görünüm sunar.",
+                    "name": "Özel Üretim Çiçek Nakışlı %100 Pamuk Baggy Jean",
+                    "description": "Arka yüzeyini kaplayan zarif çiçek nakışlarıyla sanat ve modayı buluşturan özel tasarım Baggy Jean. %100 pamuklu dokusu ve sipariş üzerine size özel üretimiyle gardırobunuzun en değerli parçası olmaya aday.",
+                    "features": [
+                        "Sanatsal Nakış Tasarımı: Pantolonun arka ceplerinden başlayarak paçalara doğru dökülen yoğun ve detaylı pembe çiçek nakışları bulunur. Baskı değil, tamamen iplik işlemeli nakıştır; bu sayede desenler canlılığını ve dokusunu yıllarca korur.",
+                        "Sipariş Üzerine Özel Üretim: Bu model seri üretim değildir. Siparişinizle birlikte size özel olarak hazırlanır, bu da ürünü standart mağaza ürünlerinden ayırarak kişiselleştirilmiş bir deneyim sunar.",
+                        "%100 Doğal Pamuk: Esnemeyen, tok duruşlu %100 pamuk denim kumaştan üretilmiştir. Kumaşın kalitesi, nakışların ağırlığını kusursuzca taşır ve formunu bozmaz.",
+                        "Geniş ve Rahat Kalıp (Baggy Fit): Sokak modasının vazgeçilmezi bol kesim Baggy kalıp, nakış detaylarıyla birleşerek hem konforlu hem de dikkat çekici bir stil yaratır.",
+                        "Sade Cep Yapısı: Arka cepler klasik düz kesimdir ve nakış deseninin devamlılığını bozmayacak şekilde tasarıma entegre edilmiştir."
+                    ],
                     "size": "Büyük Boy (31 - 32 - 33 - 34)",
                     "image": "https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/10-arka-gorunum.png",
                     "stock": "Stok Mevcut Değil"
@@ -199,8 +287,15 @@
                 {
                     "id": 15,
                     "category": "Exclusive",
-                    "name": "Erkek Boyfriend Pantolon",
-                    "description": "Openat kumaşından üretilen bu model rahat kesimiyle gün boyu konfor sağlar. Yıkama detaylarıyla tarzınızı yansıtın. 3 farklı renk seçeneğiyle her tarza uyum sağlar.",
+                    "name": "Boyfriend Kalıp Jean Serisi",
+                    "description": "Openat kumaş teknolojisinin otantik dokusuyla üretilen, kimyasal işlem görmemiş doğal renkleri ve rahat Boyfriend kalıbıyla gün boyu konfor sunan özel jean serisi.",
+                    "features": [
+                        "Openat Kumaş Teknolojisi: Standart denimlere göre daha tok, dokulu ve hacimli bir yapıya sahip olan Open-end iplikten üretilmiştir. Bu kumaş, ürüne gerçek bir 'vintage denim' hissiyatı ve dayanıklılık kazandırır.",
+                        "Doğal ve İşlemsiz Renkler: Serideki hiçbir renkte kimyasal ağartma veya beyazlatma işlemi uygulanmamıştır. Kumaşın ham ve doğal tonları korunmuştur.",
+                        "Rahat Kalıp (Boyfriend Fit): Vücudu sıkmayan, basenden paçaya rahat inen, hafif dökümlü ve konforlu kesim.",
+                        "Minimalist Arka Cep: Arka ceplerde desen, dikiş veya nakış bulunmaz. Klasik düz yapısıyla sade bir görünüm sunar.",
+                        "3 Farklı Renk ve Tasarım Seçeneği:\nBuz Mavi: Standart buz mavisinden bir ton daha doygun ve koyu, net bir mavi.\nSiyah: İşlem görmemiş, derin ve mat siyah.\nKar Yıkama (Lazer Detaylı): Griye yakın özel kar yıkama tonu üzerine, kumaşı yıpratmadan uygulanan modern lazer yırtık efektleri ile hareketlendirilmiş tasarım."
+                    ],
                     "colors": [
                         "Buz Mavi",
                         "Siyah",
@@ -213,8 +308,16 @@
                 {
                     "id": 20,
                     "category": "Exclusive",
-                    "name": "Fitilli Erkek Pantolon",
-                    "description": "%100 pamuktan üretilen Bolivya kumaşından yapılan bu model klasik kesimiyle tarzınıza tarz katar. 3 farklı renk seçeneğiyle her tarza uyum sağlar.",
+                    "name": "Özel Bolivya Dokuma %100 Pamuk Regular Fit Pantolon",
+                    "description": "Kendine has dokusuyla fark yaratan %100 pamuk olan Bolivya kumaşından üretildi. Kimyasal işlem görmemiş doğal renk tonları ve karakteristik arka cep detaylarıyla stilinize güçlü bir dokunuş katın.",
+                    "features": [
+                        "Özel Bolivya Kumaş Dokusu: Standart düz kumaşlardan farklı olarak, Bolivya dokuma tekniği ile üretilmiştir. Görselde de fark edilen belirgin diyagonal (çapraz) dokusu, pantolona hem hacim kazandırır hem de ekstra dayanıklılık sağlar.",
+                        "%100 Doğal Pamuk: Tamamen pamuk ipliğinden üretilmiştir. Sentetik karışım içermeyen yapısı sayesinde cildinize nefes aldırır ve terletme yapmaz.",
+                        "İşlem Görmemiş Saf Renkler: Kumaş üretiminde ağartma veya kimyasal beyazlatma işlemi uygulanmamıştır. Bu sayede renkler en doğal, mat ve tok haliyle sunulur.",
+                        "Karakteristik Arka Cep Tasarımı: Arka cepler, pantolonun genel dokusuyla uyumlu özel dikiş detaylarına sahiptir.",
+                        "Rahat Kalıp (Regular Fit): Vücudu sıkmayan, hareket özgürlüğü sağlayan standart kesim. Günlük kullanımda konfor arayanlar için idealdir.",
+                        "Renk Seçenekleri:\nKoyu Gri: Ağırbaşlı, her kombine uyan asil ton.\nYeşil: Doğal, canlı ve dikkat çekici ton."
+                    ],
                     "colors": [
                         "Koyu Gri",
                         "Yeşil"
