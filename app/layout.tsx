@@ -45,8 +45,6 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://hawlisjeans.com/favicon.ico",
-        width: 1200,
-        height: 630,
         alt: "Hawlis Jeans - Erkek Kış Koleksiyonu 2026",
       },
     ],
