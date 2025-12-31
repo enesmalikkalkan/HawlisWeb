@@ -112,7 +112,7 @@ export default function ProductDetails({ product }: Props) {
                 <div className="grid md:grid-cols-2 gap-12 mb-16">
 
                     {/* --- GÖRSEL ALANI --- */}
-                    <div className="relative group select-none"> {/* select-none: resmin sürüklenmesini engeller */}
+                    <div className="relative group select-none h-fit"> {/* select-none: resmin sürüklenmesini engeller */}
                         <div
                             className="bg-gray-100 rounded-2xl overflow-hidden aspect-square relative shadow-sm border border-gray-100 cursor-crosshair touch-none" // touch-none: mobilde kaydırmayı engeller
                             onMouseMove={handleMouseMove}
