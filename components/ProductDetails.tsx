@@ -138,23 +138,23 @@ export default function ProductDetails({ product }: Props) {
                                     target.src = product.image;
                                 }}
                             />
-
-                            {/* Dönme Butonu */}
-                            {(!hasColors || selectedColor) && product.id !== 14 && (
-                                <button
-                                    onClick={toggleView}
-                                    className="absolute bottom-4 right-4 bg-white/90 backdrop-blur text-gray-900 px-4 py-2 rounded-full shadow-lg font-medium text-sm flex items-center space-x-2 hover:bg-black hover:text-white transition-all transform active:scale-95 z-20 border border-gray-200"
-                                    aria-label="Ürün görünümünü değiştir"
-                                >
-                                    <RotateCw className={`w-4 h-4 ${currentView === 'arka' ? '-scale-x-100' : ''}`} />
-                                    <span>{currentView === 'on' ? 'Arkasına Bak' : 'Önüne Bak'}</span>
-                                </button>
-                            )}
                         </div>
 
                         <div className="absolute top-4 left-4 bg-black text-white px-4 py-1.5 text-xs font-bold uppercase tracking-wider rounded-md z-10 pointer-events-none">
                             Toptan Satış
                         </div>
+
+                        {/* Dönme Butonu */}
+                        {(!hasColors || selectedColor) && product.id !== 14 && (
+                            <button
+                                onClick={toggleView}
+                                className="absolute bottom-4 right-4 bg-white/90 backdrop-blur text-gray-900 px-4 py-2 rounded-full shadow-lg font-medium text-sm flex items-center space-x-2 hover:bg-black hover:text-white transition-all transform active:scale-95 z-20 border border-gray-200"
+                                aria-label="Ürün görünümünü değiştir"
+                            >
+                                <RotateCw className={`w-4 h-4 ${currentView === 'arka' ? '-scale-x-100' : ''}`} />
+                                <span>{currentView === 'on' ? 'Arkasına Bak' : 'Önüne Bak'}</span>
+                            </button>
+                        )}
                     </div>
 
                     {/* --- DETAYLAR ALANI --- */}
