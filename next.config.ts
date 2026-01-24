@@ -13,6 +13,8 @@ const nextConfig = {
         port: '',
         pathname: '/**',
       },
+      { protocol: 'https', hostname: 'scontent-*.cdninstagram.com' },
+      { protocol: 'https', hostname: 'behold.pictures' },
     ],
   },
 };
