@@ -53,10 +53,10 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         {/* 2. DÜZELTME: Başlık Hiyerarşisi (h3 -> h2) */}
-                                        <h2 className="font-bold text-gray-900 text-lg">Merkez Ofis & Showroom</h2>
+                                        <h2 className="font-bold text-gray-900 text-lg">Merkez Ofis & İmalathane</h2>
                                         <p className="text-gray-700 mt-1">
-                                            Fuat Paşa Caddesi Bereket Han<br />
-                                            No:73, 34116 Fatih/İSTANBUL
+                                            Fatih, 220. Sk. 11-1<br/>
+                                            34225 Esenler/İstanbul
                                         </p>
                                     </div>
                                 </div>
@@ -104,7 +104,7 @@ export default function ContactPage() {
                             allowFullScreen={true}
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
-                            title="Fuat Paşa Caddesi Bereket Han Konumu"
+                            title="Fatih Mahallesi 220. Sokak Konumu"
                             aria-label="Google Haritalar Konumu"
                         ></iframe>
 
@@ -115,8 +115,8 @@ export default function ContactPage() {
                                 <span>Çalışma Saatleri</span>
                             </div>
                             <p className="text-sm text-gray-700 pl-6">
-                                Pazartesi - Cuma: 08:00 - 16:30<br />
-                                Cumartesi: 08:00 - 11:30
+                                Pazartesi - Cuma: 08:00 - 17:00<br />
+                                Cumartesi: 08:00 - 13:00
                             </p>
                         </div>
                     </div>

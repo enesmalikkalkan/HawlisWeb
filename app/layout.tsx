@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hawlis Jeans | Erkek Kış Koleksiyonu 2026",
+  title: "Hawlis Jeans | Erkek İlkbahar Koleksiyonu",
   description: "Discover our exclusive range of premium men's trousers, crafted for style and comfort. Explore cargo pants, straight jeans, baggy jeans, tailored trousers, and joggers designed for the modern gentleman.",
   authors: [{ name: "Hawlis Jeans", url: "https://hawlisjeans.com" }],
   keywords: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   publisher: "Vercel",
   robots: "index, follow",
   openGraph: {
-    title: "Hawlis Jeans | Erkek Kış Koleksiyonu 2026",
+    title: "Hawlis Jeans | Erkek İlkbahar Koleksiyonu",
     description:
       "Discover our exclusive range of premium men's trousers, crafted for style and comfort. Explore cargo pants, straight jeans, baggy jeans, tailored trousers, and joggers designed for the modern gentleman.",
     url: "https://hawlisjeans.com",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://hawlisjeans.com/favicon.ico",
-        alt: "Hawlis Jeans - Erkek Kış Koleksiyonu 2026",
+        alt: "Hawlis Jeans - Erkek İlkbahar Koleksiyonu",
       },
     ],
     locale: "tr_TR",

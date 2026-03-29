@@ -11,7 +11,7 @@ export default function Hero() {
                     <div className="space-y-8">
                         <div className="inline-block">
                             <span className="text-sm font-semibold tracking-wider uppercase text-gray-600 bg-white px-4 py-2 rounded-full">
-                                2026 Kış Koleksiyonu
+                                2026 İlkbahar Koleksiyonu
                             </span>
                         </div>
                         <h1 className="text-5xl bg-gradient-to-r from-[#1A73E8] to-gray-900 bg-clip-text text-transparent md:text-6xl lg:text-7xl font-bold leading-tight">

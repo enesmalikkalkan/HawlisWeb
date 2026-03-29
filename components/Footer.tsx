@@ -70,9 +70,9 @@ export default function Footer() {
                         <h4 className="text-white font-semibold mb-4">İletişim</h4>
                         <ul className="space-y-3">
                             <li>
-                                <a className="flex items-start space-x-3 text-sm" href='https://maps.app.goo.gl/8tF2FfHrDeA3nrGK8' target='_blank'>
+                                <a className="flex items-start space-x-3 text-sm" href='https://maps.app.goo.gl/DWYk4RefyfjjPLL26' target='_blank'>
                                     <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                                    <span>Fuat Paşa Caddesi Bereket Han No:73 Mercan/İSTANBUL</span>
+                                    <span>Fatih, 220. Sk. 11-1, 34225 Esenler/İstanbul</span>
                                 </a>
                             </li>
                             <li>
