@@ -11,17 +11,17 @@ export default function Hero() {
                     <div className="space-y-8">
                         <div className="inline-block">
                             <span className="text-sm font-semibold tracking-wider uppercase text-gray-600 bg-white px-4 py-2 rounded-full">
-                                2026 İlkbahar Koleksiyonu
+                                2026 Sonbahar Koleksiyonu
                             </span>
                         </div>
-                        <h1 className="text-5xl bg-gradient-to-r from-[#1A73E8] to-gray-900 bg-clip-text text-transparent md:text-6xl lg:text-7xl font-bold leading-tight">
+                        <h1 className="text-5xl bg-gradient-to-r from-[#D97736] to-[#7B2D26] bg-clip-text text-transparent md:text-6xl lg:text-7xl font-bold leading-tight">
                             Hawlis Jeans ile
-                            <span className="block mt-2 bg-gradient-to-r from-gray-900 to-[#1A73E8] bg-clip-text text-transparent">
+                            <span className="block mt-2 bg-gradient-to-r from-[#7B2D26] to-[#D97736] bg-clip-text text-transparent">
                                 Tarzınızı Yansıtın
                             </span>
                         </h1>
                         <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-xl">
-                            Konfor ve stil için tasarlanmış birinci sınıf erkek pantolonlarını keşfedin. Kargo pantolonlardan özel dikim model pantolonlarına kadar, size en uygun olanı bulun.
+                            Soğuk günlerde de tarzınızdan ödün vermeyin. Kalın dokulu kargo, kot ve kumaş pantolonlarla yeni sezona hazır olun.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link
@@ -46,12 +46,8 @@ export default function Hero() {
                         <div className="absolute inset-0 bg-gradient-to-br from-gray-200 to-gray-300 rounded-3xl transform rotate-3"></div>
                         <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl h-full flex items-center justify-center overflow-hidden">
                             {/* Not: Arka plan resimleri için Next.js Image component yerine CSS bg kullanmak bazen stil açısından daha kolaydır. Eğer LCP optimizasyonu gerekirse Image component kullanılabilir. */}
-                            <div className="absolute inset-0 bg-[url('https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/logo-bg.png')] bg-cover bg-center opacity-90"></div>
+                            <div className="absolute inset-0 bg-[url('https://kalkan-tekstil-web.s3.eu-central-1.amazonaws.com/autumn.png')] bg-cover bg-center opacity-90"></div>
                             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                            <div className="relative z-10 text-white text-center p-8">
-                                <p className="text-6xl font-bold mb-2">En Son Çıkan</p>
-                                <p className="text-xl">Modellerimizi Keşfedin</p>
-                            </div>
                         </div>
                     </div>
                 </div>

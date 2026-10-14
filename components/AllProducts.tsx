@@ -89,7 +89,7 @@ function ProductListContent() {
                                         <h3 className="font-semibold text-sm mb-3">Kategori</h3>
                                         <div className="space-y-2">
                                             {categories.map((category) => (
-                                                <label key={category.name} className="flex items-center space-x-3 cursor-pointer hover:text-blue-600 transition-colors">
+                                                <label key={category.name} className="flex items-center space-x-3 cursor-pointer hover:text-[#D97736] transition-colors">
                                                     <Link href={`/allproducts?category=${category.categoryOption}`} className="flex items-center space-x-3 w-full">
                                                         <input
                                                             type="radio"
@@ -97,7 +97,7 @@ function ProductListContent() {
                                                             value={category.categoryOption}
                                                             checked={currentCategory === category.categoryOption}
                                                             onChange={(e) => updateFilters('category', e.target.value)}
-                                                            className="w-4 h-4 text-blue-600 focus:ring-blue-500 border-gray-300 cursor-pointer"
+                                                            className="w-4 h-4 accent-[#7B2D26] text-[#D97736] focus:ring-[#D97736] border-gray-300 cursor-pointer"
                                                         />
                                                         <span className="text-sm">{category.name}</span>
                                                     </Link>
@@ -114,12 +114,12 @@ function ProductListContent() {
                                             value={currentSort}
                                             onChange={(e) => updateFilters('sort', e.target.value)}
                                             aria-label="Ürünleri Sırala"
-                                            className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
+                                            className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#D97736] bg-white"
                                         >
-                                            <option value="newest">Önerilen</option>
-                                            <option value="name">İsim: A'dan Z'ye</option>
-                                            <option value="category-asc">Kategori: A'dan Z'ye</option>
-                                            <option value="category-desc">Kategori: Z'den A'ya</option>
+                                            <option value="newest" className="hover:bg-[#7B2D26]">Önerilen</option>
+                                            <option value="name" className="hover:bg-[#7B2D26]">İsim: A'dan Z'ye</option>
+                                            <option value="category-asc" className="hover:bg-[#7B2D26]">Kategori: A'dan Z'ye</option>
+                                            <option value="category-desc" className="hover:bg-[#7B2D26]">Kategori: Z'den A'ya</option>
                                         </select>
                                     </div>
                                 </div>
@@ -155,7 +155,7 @@ function ProductListContent() {
 
                                         <div className="flex-1 bg-gray-50 border-2 border-gray-500/10 rounded-b-lg border-t-0 p-4 flex flex-col justify-between">
                                             <div className="flex flex-col items-start">
-                                                <span className="text-[10px] font-bold tracking-wider text-blue-600 uppercase bg-blue-50 px-2 py-1 rounded-full mb-2">
+                                                <span className="text-[10px] font-bold tracking-wider text-[#D97736] uppercase bg-blue-50 px-2 py-1 rounded-full mb-2">
                                                     {product.category}
                                                 </span>
                                                 <h3 className="font-semibold text-gray-900 text-base leading-tight">
@@ -171,7 +171,7 @@ function ProductListContent() {
                                 <p className="text-gray-500 text-lg mb-2">Filtrelerinizle uyuşan ürün bulunamadı.</p>
                                 <button
                                     onClick={resetFilters}
-                                    className="text-blue-600 font-medium hover:underline"
+                                    className="text-[#D97736] font-medium hover:underline"
                                 >
                                     Filtreleri Sıfırla
                                 </button>

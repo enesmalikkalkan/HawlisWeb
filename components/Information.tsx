@@ -50,7 +50,7 @@ export default function InformationPage() {
                 <section id="about" className="mb-24 scroll-mt-24">
                     <div className="grid md:grid-cols-2 gap-12 items-center">
                         <div>
-                            <span className="text-blue-600 font-bold tracking-wider uppercase text-sm mb-2 block">Marka Hakkında</span>
+                            <span className="text-[#D97736] font-bold tracking-wider uppercase text-sm mb-2 block">Marka Hakkında</span>
                             <h2 className="text-4xl font-bold mb-6 text-gray-900">Hawlis Jeans Hakkında</h2>
                             <p className="text-lg text-gray-600 leading-relaxed mb-6">
                                 Hawlis Jeans, konfor, stil ve kaliteyi bir araya getiren giysiler üretmeye adanmış premium bir erkek giyim markasıdır. Kurulduğumuz günden bu yana, müşterilerimize sadece olağanüstü görünen değil, aynı zamanda giyildiğinde inanılmaz hissettiren ürünler sunmaya kararlıyız.

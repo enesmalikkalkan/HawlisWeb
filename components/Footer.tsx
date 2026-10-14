@@ -85,7 +85,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="border-t border-[#1A73E8] pt-8">
+                <div className="border-t border-[#D97736] pt-8">
                     <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                         <p className="text-sm">© 2026 HAWLIS JEANS. Tüm hakları saklıdır.</p>
                         <div className="flex space-x-6 text-sm">

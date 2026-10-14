@@ -66,7 +66,7 @@ export default function Navbar() {
                                     key={item.path}
                                     href={`/${item.path}`}
                                     onClick={() => handleLinkClick(item.filterValue)}
-                                    className="text-sm font-medium text-gray-800 hover:text-[#1A73E8] transition"
+                                    className="text-sm font-medium text-gray-800 hover:text-[#D97736] transition"
                                 >
                                     {item.name}
                                 </Link>
@@ -85,7 +85,7 @@ export default function Navbar() {
                                 key={item.path}
                                 href={`/${item.path}`}
                                 onClick={() => handleLinkClick(item.filterValue)}
-                                className="block w-full py-3 px-3 text-base font-medium text-gray-700 hover:text-[#1A73E8] hover:bg-gray-50 rounded-lg transition"
+                                className="block w-full py-3 px-3 text-base font-medium text-gray-700 hover:text-[#D97736] hover:bg-gray-50 rounded-lg transition"
                             >
                                 {item.name}
                             </Link>

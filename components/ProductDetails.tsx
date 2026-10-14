@@ -209,14 +209,14 @@ export default function ProductDetails({ product }: Props) {
                                                             key={index}
                                                             onClick={() => handleColorSelect(color)}
                                                             className={`flex items-center space-x-2 px-3 py-1.5 border rounded-lg bg-white transition-all
-                                                                ${isSelected ? 'border-blue-600 ring-1 ring-blue-600 bg-blue-50' : 'border-gray-200 hover:border-gray-400'}`}
+                                                                ${isSelected ? 'border-[#D97736] ring-1 ring-[#D97736] bg-[#D97736]' : 'border-gray-200 hover:border-gray-400'}`}
                                                             aria-label={`${color} rengini seç`}
                                                         >
                                                             <span
                                                                 className="w-4 h-4 rounded-full border border-gray-200 shadow-sm"
                                                                 style={{ backgroundColor: getColorHex(color) }}
                                                             ></span>
-                                                            <span className={`text-sm font-medium ${isSelected ? 'text-blue-700' : 'text-gray-700'}`}>
+                                                            <span className={`text-sm font-medium ${isSelected ? 'text-[#D97736]' : 'text-gray-700'}`}>
                                                                 {color}
                                                             </span>
                                                         </button>
@@ -252,19 +252,19 @@ export default function ProductDetails({ product }: Props) {
                             </div>
 
                             {/* Bilgi Kutuları */}
-                            <div className="space-y-3 bg-blue-50 p-4 rounded-xl border border-blue-100">
+                            <div className="space-y-3 bg-gray-50 p-4 rounded-xl border border-blue-100">
                                 <div className="flex items-start space-x-3">
-                                    <CheckCircle2 className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" aria-hidden="true" />
+                                    <CheckCircle2 className="w-5 h-5 text-[#D97736] mt-0.5 flex-shrink-0" aria-hidden="true" />
                                     <div>
-                                        <p className="font-semibold text-blue-900">Toptan Satış Avantajı</p>
-                                        <p className="text-sm text-blue-700">Yüksek adetli alımlarda özel iskonto oranları uygulanır.</p>
+                                        <p className="font-semibold text-[#7B2D26]">Toptan Satış Avantajı</p>
+                                        <p className="text-sm text-[#D97736]">Yüksek adetli alımlarda özel iskonto oranları uygulanır.</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start space-x-3">
-                                    <FileText className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" aria-hidden="true" />
+                                    <FileText className="w-5 h-5 text-[#D97736] mt-0.5 flex-shrink-0" aria-hidden="true" />
                                     <div>
-                                        <p className="font-semibold text-blue-900">Kurumsal Fatura</p>
-                                        <p className="text-sm text-blue-700">Tüm siparişlerinizde şirket adına fatura kesilmektedir.</p>
+                                        <p className="font-semibold text-[#7B2D26]">Kurumsal Fatura</p>
+                                        <p className="text-sm text-[#D97736]">Tüm siparişlerinizde şirket adına fatura kesilmektedir.</p>
                                     </div>
                                 </div>
                             </div>
@@ -289,7 +289,7 @@ export default function ProductDetails({ product }: Props) {
                                 </div>
                                 <div>
                                     <span className="text-xs font-bold text-gray-700 uppercase tracking-wider">{relatedProduct.category}</span>
-                                    <h3 className="font-semibold mt-1 text-gray-900 group-hover:text-blue-600 transition truncate">{relatedProduct.name}</h3>
+                                    <h3 className="font-semibold mt-1 text-gray-900 group-hover:text-[#D97736] transition truncate">{relatedProduct.name}</h3>
                                 </div>
                             </Link>
                         )) : (<p className="text-gray-700 col-span-4">Bu kategoride başka ürün bulunamadı.</p>)}
